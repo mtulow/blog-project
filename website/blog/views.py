@@ -6,3 +6,9 @@ from django.http import HttpResponse
 
 def index(request):
     return HttpResponse("Hello, world. You're at the blog index.")
+
+def posts(request):
+    return HttpResponse("Hello, world. You're at the blog posts.")
+
+def comments(request):
+    return HttpResponse("Hello, world. You're at the blog comments.")
